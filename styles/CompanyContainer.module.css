@@ -1,0 +1,75 @@
+.companyContainer {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  padding: 60px 20px;
+  /* padding-bottom: 100px; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  /* flex-direction: column; */
+  overflow: hidden;
+}
+
+.logo_bg {
+  position: absolute;
+  opacity: 0.2;
+  margin-left: auto;
+  right: 0;
+  top: -50px;
+  transform: translateX(50%);
+  width: 900px;
+  z-index: 1;
+}
+
+.companyIsi {
+  width: 100%;
+  max-width: 1000px;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.companyIsiHeader {
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.companyIsi > p {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.companyBusiness {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separatorBlack {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 500px) {
+  .companyIsi {
+    width: 100%;
+    text-align: justify;
+    padding: 0 20px;
+    font-size: 1rem;
+  }
+
+  .separatorBlack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

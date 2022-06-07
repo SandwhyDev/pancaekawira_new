@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
+.companyHeader {
+  width: 100vw;
+  position: relative;
+  height: 70vh;
+  margin-top: 13vh;
+}
+
+.darkEffect {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.companyTextHeader {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  flex-direction: column;
+  padding: 0 10%;
+  gap: 5%;
+  text-align: center;
+}
+
+.companyTextHeader > h1 {
+  font-size: 38pt;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 500px) {
+  .companyTextHeader {
+    font-size: 1.5rem;
+  }
+
+  .companyHeader {
+    width: 100vw;
+    position: relative;
+    height: 35vh;
+    margin-top: 85px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .companyTextHeader {
+    font-size: 18pt;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .companyHeader {
+    width: 100vw;
+    position: relative;
+    height: 40vh;
+    margin-top: 85px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  .companyTextHeader {
+    font-size: 28pt;
+  }
+
+  .companyHeader {
+    width: 100vw;
+    position: relative;
+    height: 60vh;
+    margin-top: 85px;
+  }
+}

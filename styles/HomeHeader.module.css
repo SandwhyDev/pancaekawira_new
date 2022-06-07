@@ -1,0 +1,73 @@
+.headerImgContainer {
+  width: 100vw;
+  position: relative;
+  height: 500px;
+  /* margin-top: 13vh; */
+}
+
+.heroText {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  flex-direction: column;
+  padding: 0 10%;
+  /* gap: 5%; */
+  text-align: center;
+}
+
+.heroText h1 {
+  font-size: 4rem;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.heroText h3 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .heroText h1 {
+    font-size: 2rem;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+  .heroText h3 {
+    margin-top: 10px;
+    font-size: 12pt;
+    max-width: 80%;
+  }
+  .heroText {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .heroText {
+    padding: 0 5%;
+  }
+  .heroText h1 {
+    font-size: 28pt;
+  }
+
+  .heroText h3 {
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (min-height: 1100px) and (max-height: 1400px) {
+  .headerImgContainer {
+    height: 1000px;
+  }
+}
+
+@media only screen and (min-height: 1000px) and (max-height: 1099px) {
+  .headerImgContainer {
+    height: 900px;
+  }
+}

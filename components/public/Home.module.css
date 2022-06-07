@@ -1,0 +1,18 @@
+.home {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+}
+
+.aboutServiceArea {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: inset 1.5vw 0 0 #D12635; */
+}
+
+body {
+  user-select: none;
+}

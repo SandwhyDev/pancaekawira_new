@@ -1,0 +1,172 @@
+.ourServices {
+  width: 100vw;
+  max-width: 1000px;
+  height: auto;
+  /* padding: 0 10%; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.ourServices h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.serviceContentWrapper {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.serviceContent {
+  display: flex;
+  height: 250px;
+  flex: 400px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  column-gap: 10px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    122deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(126, 0, 111, 1) 100%
+  );
+  color: white;
+  overflow: hidden;
+  position: relative;
+  /* border: 1px solid red; */
+  transition-duration: 0.2s;
+}
+
+.serviceContent img {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  transition-duration: 0.8s;
+}
+
+.serviceContent:hover {
+  font-size: 1.5rem;
+}
+
+.serviceContent .fas {
+  width: 60px;
+  text-align: center;
+}
+
+.serviceContent:hover img {
+  font-size: 1.5rem;
+  transform: scale(120%);
+  /* transform: rotate(10deg); */
+}
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.serviceText h3 {
+  font-weight: 500;
+}
+
+.decorationBolaService {
+  width: 90px;
+  height: 90px;
+  border-radius: 900px;
+  background-color: #001f8d;
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+.decorationBolaService2 {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #d12635 0%, #001f8d 100%);
+  border-radius: 900px;
+  position: absolute;
+  right: 13.5%;
+  bottom: 35%;
+}
+
+.decorationBolaService3 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(220.67deg, #001f8d 11.64%, #d12635 86.1%);
+  border-radius: 900px;
+  position: absolute;
+  right: 10%;
+  bottom: 23%;
+}
+
+.serviceContent .fas {
+  font-size: 34pt;
+  color: #001f8d;
+  display: flex;
+  justify-content: center;
+}
+
+.decorationServices {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100px;
+  height: 10px;
+  border-radius: 90px;
+  background-color: #001f8d;
+}
+
+@media only screen and (max-width: 500px) {
+  .ourServices h2 {
+    font-size: 14pt;
+  }
+  .decorationServices {
+    width: 70px;
+    height: 7px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .decorationBolaService,
+  .decorationBolaService2,
+  .decorationBolaService3 {
+    display: none;
+  }
+
+  .serviceContent .fas {
+    font-size: 28pt;
+  }
+
+  .belanja {
+  }
+
+  .serviceText h2 {
+    font-size: 13pt;
+  }
+  .serviceContentWrapper {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    /* margin-top: 40px; */
+    column-gap: 0px;
+    row-gap: 0px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .decorationBolaService,
+  .decorationBolaService2,
+  .decorationBolaService3 {
+    display: none;
+  }
+}

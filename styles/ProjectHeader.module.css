@@ -1,0 +1,61 @@
+.headerImgContainerProject {
+  width: 100vw;
+  position: relative;
+  height: 50vh;
+  /* margin-top: 13vh; */
+}
+
+.heroTextProject {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  flex-direction: column;
+  padding: 0 10%;
+  gap: 5%;
+  text-align: center;
+}
+
+.heroTextProject h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.heroTextProject h3 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.imgHeader {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .heroTextProject h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .headerImgContainerProject {
+    width: 100vw;
+    position: relative;
+    height: 50vh;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .heroTextProject {
+    padding: 0 5%;
+  }
+  .heroTextProject h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,250 @@
+.navbar {
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding-left: 5%; */
+  padding: 0 40px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.imgGroups {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navLeft {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navRight {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-right: 30px;
+  font-weight: 200;
+}
+
+.brandLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.textbrand {
+  width: auto;
+  height: 100%;
+  font-size: 10pt;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+}
+
+.textbrand1,
+.textbrand2 {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 14pt;
+  margin-left: 15px;
+  color: #073795;
+}
+
+.navRight h3 {
+  font-size: 12pt;
+  cursor: pointer;
+  opacity: 0.9;
+  transition-duration: 0.2s;
+  font-weight: 500;
+}
+
+/* .navRight h3:hover {
+  color: #001f8d;
+  opacity: 1;
+} */
+
+.navInput {
+  border: 1px solid #001f8d;
+  width: 70%;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  background-color: inherit;
+  padding: 0 5%;
+}
+
+.navInputs {
+  border: 1px solid #001f8d;
+  width: 70%;
+  height: 100%;
+  border-radius: 35px 0 0 35px;
+  outline: none;
+  background-color: white;
+  padding: 0 5%;
+}
+
+.navSearch {
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navSearchs {
+  position: fixed;
+  top: 13.1vh;
+  right: 0;
+  width: auto;
+  height: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 997;
+}
+
+.icnContainer {
+  color: white;
+  background-color: #001f8d;
+  height: 100%;
+  width: 40px;
+  border-radius: 0 90px 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchIconNoteBook {
+  display: none;
+}
+.searchIconPhone {
+  display: none;
+}
+.menuNav {
+  display: none;
+}
+
+/*Untuk Tampilan NoteBook*/
+@media only screen and (min-width: 984px) and (max-width: 1243px) {
+  .navSearch {
+    display: none;
+  }
+  .searchIconNoteBook {
+    display: flex;
+    color: black;
+    font-size: 14pt;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 2% 0;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 983px) {
+  .navbar {
+    justify-content: center;
+    align-items: center;
+  }
+  .navRight {
+    display: none;
+  }
+  .navLeft {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchIconPhone {
+    display: flex;
+    font-size: 18pt;
+  }
+  .menuNav {
+    display: flex;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: rgb(30, 71, 140);
+    background: linear-gradient(
+      122deg,
+      rgba(30, 71, 140, 1) 0%,
+      rgba(145, 0, 128, 1) 100%
+    );
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+  }
+  .imgGroups {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    padding: 0 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navRight {
+    display: none;
+  }
+  .navLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .searchIconPhone {
+    display: flex;
+    font-size: 18pt;
+  }
+  .menuNav {
+    display: flex;
+    font-size: 1.2rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: rgb(30, 71, 140);
+    background: linear-gradient(
+      122deg,
+      rgba(30, 71, 140, 1) 0%,
+      rgba(145, 0, 128, 1) 100%
+    );
+    border-radius: 100px;
+    padding: 12px;
+    color: white;
+  }
+
+  .imgGroups img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .textbrand1,
+  .textbrand2 {
+    font-size: 12pt;
+  }
+}
