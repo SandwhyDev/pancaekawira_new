@@ -22,7 +22,7 @@ function Navbar() {
       <TabMenu show={showModal} />
 
       <i
-        className={styles.menuNav && "fas fa-bars"}
+        className={`${styles.menuNav} fas fa-bars`}
         onClick={() => {
           setShowModal(!showModal);
         }}

@@ -10,17 +10,17 @@ function ProductCard() {
   return (
     <>
       <div className={styles.productCardHeader}>
-        <h1>OUR SERVICE</h1>
+        <h3>OUR SERVICE</h3>
         <div className={styles.productCard}>
           <div
             className={styles.card1}
             onClick={() => {
-              handleClick("/product/detail/roof");
+              handleClick("/product/detail/distribution");
             }}
           >
             <div className={styles.imgCard}>
               <div className={styles.textCard}>
-                <h1>ROOF</h1>
+                <h3>Distribution</h3>
               </div>
               <Image
                 src="/Assets/roof.jpg"
@@ -35,12 +35,12 @@ function ProductCard() {
           <div
             className={styles.card1}
             onClick={() => {
-              handleClick("/product/detail/facade");
+              handleClick("/product/detail/construction");
             }}
           >
             <div className={styles.imgCard}>
               <div className={styles.textCard}>
-                <h1>FACADE</h1>
+                <h3>Construction</h3>
               </div>
               <Image
                 src="/Assets/facade.jpg"
@@ -53,12 +53,17 @@ function ProductCard() {
           {/* PEMBATAS */}
         </div>
 
-        <div className={styles.productCard}>
+        <div
+          className={styles.productCard}
+          onClick={() => {
+            handleClick("/product/detail/installation");
+          }}
+        >
           {/* PEMBATAS */}
           <div className={styles.card1}>
             <div className={styles.imgCard}>
               <div className={styles.textCard}>
-                <h1>WALL</h1>
+                <h3>Installation</h3>
               </div>
               <Image
                 src="/Assets/wall.png"
@@ -72,7 +77,7 @@ function ProductCard() {
           <div className={styles.card1}>
             <div className={styles.imgCard}>
               <div className={styles.textCard}>
-                <h1>FLOOR</h1>
+                <h3>Furniture</h3>
               </div>
               <Image
                 src="/Assets/floor.png"

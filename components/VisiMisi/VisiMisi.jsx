@@ -10,7 +10,7 @@ const VisiMisi = () => {
         <>
           <div className={styles.imgContainer}>
             <span
-              className={"material-icons" && styles.arrowLeft2}
+              className={`${styles.arrowLeft2} material-icons`}
               onClick={() => {
                 setVisi(!visi);
               }}
@@ -18,7 +18,7 @@ const VisiMisi = () => {
               keyboard_arrow_left
             </span>
             <span
-              className={"material-icons" && styles.arrowRight2}
+              className={`${styles.arrowRight2} material-icons`}
               onClick={() => {
                 setVisi(!visi);
               }}
@@ -28,10 +28,10 @@ const VisiMisi = () => {
             <div className={styles.darkEffect}>
               <h1>OUR MISSION</h1>
               <p>
-                Being the best distributor on providing the best solution for
-                customer by working closely with our suppliers and our
-                customers. We strive to provide an excellent marketing service
-                that is supported by an experienced sales team.
+                Being the best distributor and contractor on providing the best
+                solution for customers by working closely with our suppliers and
+                our customers. We strive to provide an excellent marketing
+                service that is supported by an experienced sales team.
               </p>
             </div>
             <Image
@@ -46,7 +46,7 @@ const VisiMisi = () => {
         <>
           <div className={styles.imgContainer}>
             <span
-              className={"material-icons" && styles.arrowLeft2}
+              className={`${styles.arrowLeft2} material-icons`}
               onClick={() => {
                 setVisi(!visi);
               }}
@@ -54,7 +54,7 @@ const VisiMisi = () => {
               keyboard_arrow_left
             </span>
             <span
-              className={"material-icons" && styles.arrowRight2}
+              className={`${styles.arrowRight2} material-icons`}
               onClick={() => {
                 setVisi(!visi);
               }}
@@ -64,8 +64,8 @@ const VisiMisi = () => {
             <div className={styles.darkEffect}>
               <h1>OUR VISION</h1>
               <p>
-                To be trusted distribution company in Indonesia with building
-                material as the focus product.{" "}
+                To be a trusted distribution and construction company in
+                Indonesia.{" "}
               </p>
             </div>
             <Image

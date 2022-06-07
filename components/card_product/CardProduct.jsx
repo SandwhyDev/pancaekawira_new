@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/card_product.module.css";
+import styles from "../../styles/cardP.module.css";
 const CardProduct = ({ img = "https://picsum.photos/seed/150/300" }) => {
   return (
     <div className={styles.card_product}>

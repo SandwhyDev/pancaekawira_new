@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import "../styles/globals.css";
 import "../styles/TabMenu.module.css";
 import "../styles/ProjectHeader.module.css";
 import "../styles/ProductHeader.module.css";

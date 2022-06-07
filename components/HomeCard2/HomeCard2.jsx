@@ -68,7 +68,7 @@ const Homecardone = () => {
         <>
           <div className={styles.cardLeft2}>
             <span
-              className={"material-icons" && styles.arrowLefts}
+              className={`${styles.arrowLefts} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel4: true,
@@ -87,7 +87,7 @@ const Homecardone = () => {
           </div>
           <div className={styles.cardRight2}>
             <span
-              className={"material-icons" && styles.arrowRight}
+              className={`${styles.arrowRight} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel2: true,
@@ -141,7 +141,7 @@ const Homecardone = () => {
         <>
           <div className={styles.cardLeft2}>
             <span
-              className={"material-icons" && styles.arrowLefts}
+              className={`${styles.arrowLefts} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel1: true,
@@ -160,7 +160,7 @@ const Homecardone = () => {
           </div>
           <div className={styles.cardRight2}>
             <span
-              className={"material-icons" && styles.arrowRight}
+              className={`${styles.arrowRight} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel3: true,
@@ -214,7 +214,7 @@ const Homecardone = () => {
         <>
           <div className={styles.cardLeft2}>
             <span
-              className={"material-icons" && styles.arrowLefts}
+              className={`${styles.arrowLefts} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel2: true,
@@ -233,7 +233,7 @@ const Homecardone = () => {
           </div>
           <div className={styles.cardRight2}>
             <span
-              className={"material-icons" && styles.arrowRight}
+              className={`${styles.arrowRight} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel4: true,
@@ -287,7 +287,7 @@ const Homecardone = () => {
         <>
           <div className={styles.cardLeft2}>
             <span
-              className={"material-icons" && styles.arrowLefts}
+              className={`${styles.arrowLefts} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel3: true,
@@ -306,7 +306,7 @@ const Homecardone = () => {
           </div>
           <div className={styles.cardRight2}>
             <span
-              className={"material-icons" && styles.arrowRight}
+              className={`${styles.arrowRight} material-icons`}
               onClick={() => {
                 setCarousel({
                   carousel1: true,
